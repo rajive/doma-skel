@@ -12,6 +12,6 @@ don't already provide builtin profiles.
 
 A builtin Qos Profile is defined in a DDS-XML file as follows:
 
-- `<product_name>_qos`.idl
+- `<product_name>`_qos.xml
   - collection of builtin qos profiles, to satisfy the missing dependencies 
   - provide behavior equivalent to the standard builtin qos profiles

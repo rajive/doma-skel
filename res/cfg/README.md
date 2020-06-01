@@ -5,7 +5,7 @@
 Configuration files specific to a service's operation. 
 
 For example, these could be configuration files for Connext DDS 
-Routing Service, Persistenec Service, Recording Service, Replay Service etc. 
+Routing Service, Persistence Service, Recording Service, Replay Service etc. 
 
 Or, these could be configuration files for user-defined services.
 

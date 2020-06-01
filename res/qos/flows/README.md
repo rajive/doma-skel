@@ -12,7 +12,7 @@ architecture.
 
 A Flow Qos Profile is defined in a DDS-XML file as follows:
 
-- `<architecture_style>_qos`.idl
+- `<architecture_style>`_qos.xml
   - collection of qos profiles, where each describes a primary data flow behavior 
 
 

@@ -11,6 +11,6 @@ of a data flow.
 
 A Qos Profile Snippet is defined in a DDS-XML file as follows:
 
-- `<entity>_qos`.idl
+- `<entity>`_qos.xml
   - collection of qos profile snippets, where each snippet describes a 
     single aspect of behavior for that entity

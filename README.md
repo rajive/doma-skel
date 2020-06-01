@@ -25,5 +25,3 @@ purpose and organization in the directory hierarchy.
 - [bin/](bin/README.md)
 - [lib/](lib/README.md) 
 - [doc/](doc/README.md)
-
-

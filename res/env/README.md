@@ -13,7 +13,7 @@ variables needed to setup the service runtime environment.
 
 A service *<service_name>* environment is defined in a file as follows:
 
- - <service_name>.sh
+ - `<service_name>`.sh
    - shell script to source, to setup the environment
 
 To setup a service runtime environment
