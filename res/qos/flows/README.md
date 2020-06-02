@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Flow Qos Profiles.
+Flow Qos Profiles Library.
 
 Top-level Qos Profiles that specify the primary patterns of data flow in a system
 architecture.
@@ -10,7 +10,7 @@ architecture.
 
 ## Organization
 
-A Flow Qos Profile is defined in a DDS-XML file as follows:
+A Flow Qos Library is defined in a DDS-XML file as follows:
 
 - `<architecture_style>`_qos.xml
   - collection of qos profiles, where each describes a primary data flow behavior 

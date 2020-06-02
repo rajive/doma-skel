@@ -2,22 +2,22 @@
 
 ## Purpose
 
-Shell script to setup the runtime environment for service.
+Shell script to setup the *runtime environment* for a component.
 
-Typically, the shell script will setup `NDDS_QOS_PROFILES` environment 
-variable to satisfy the DDS-XML dependencies, and any additional environment
-variables needed to setup the service runtime environment.
+Typically, the shell script will setup `NDDS_QOS_PROFILES` environment variable
+to satisfy the DDS-XML dependencies, and any additional environment variables
+needed by the runtime.
 
 
 ## Organization
 
-A service *<service_name>* environment is defined in a file as follows:
+An runtime environment *<name>* is defined in a file as follows:
 
- - `<service_name>`.sh
-   - shell script to source, to setup the environment
+ - `<name>`.sh
+   - shell script to source, to setup the runtime environment
 
-To setup a service runtime environment
+To setup a runtime environment
 
-        source <service_name>.sh
+        source <name>.sh
 
 

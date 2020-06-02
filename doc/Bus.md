@@ -1,34 +1,25 @@
 # Bus
 
-## Purpose 
+Data models and Services for a particular industry vertical 
+or application domain.
 
-Defines *Data Model* and *Service Interfaces* on the DDS **databus**.
+## Definition
 
-A *data model* is comprised of:
+Collection of data models and services on a databus for a 
+set of related use cases. 
 
-- Datatypes
-- Qos Profiles
-
-*Service Interfaces* use the data model to define abstract communication
-interfaces on the databus. 
-
-A service (a.k.a *micro-service*) is a collection of data-oriented interfaces 
-that work together to accomplish certain objectives and provide certain 
-capabilities in a system.
-
-Components implement the service interfaces. A service interface can be
-implemented by muliple components. 
+Comprised of:
+ - [Data Models](DataModel.md)
+ - [Services](Service.md)
 
 
 ## Organization
 
-The **Bus** tree contains only the data model and the service interface
-definitions. 
-
-Components and Systems are defined elsewhere.
-
+- [if/](../if/README.md)
+- [res/qos/](../res/qos/README.md)
+- [res/types/](../res/types/README.md)
 
 
 ## Maintainer
 
-The **Bus** tree is maintained by team members responsible for architecture defintion.
+The Bus is maintained by team members responsible for architecture defintion.

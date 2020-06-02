@@ -10,7 +10,7 @@ don't already provide builtin profiles.
 
 ## Organization
 
-A builtin Qos Profile is defined in a DDS-XML file as follows:
+A builtin Qos library is defined in a DDS-XML file as follows:
 
 - `<product_name>`_qos.xml
   - collection of builtin qos profiles, to satisfy the missing dependencies 

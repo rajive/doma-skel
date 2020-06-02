@@ -2,12 +2,12 @@
 
 ## Purpose
 
-Service Qos Profiles.
+Service Qos Profiles Library.
 
 
 ## Organization
 
-A Service Qos Profile is defined in a DDS-XML file as follows:
+A Service Qos Library is defined in a DDS-XML file as follows:
 
 - `<service_name>`_qos.xml
   - collection of qos profiles, one per service endpoint interface

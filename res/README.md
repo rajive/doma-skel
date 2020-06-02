@@ -4,8 +4,6 @@
 
 Resource definitions.
 
-Resources are used to define service interfaces.
-
 
 ## Organization
 

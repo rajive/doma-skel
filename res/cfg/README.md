@@ -2,17 +2,19 @@
 
 ## Purpose
 
-Configuration files specific to a service's operation. 
+Configuration files specific to a component's operation. 
 
-For example, these could be configuration files for Connext DDS 
-Routing Service, Persistence Service, Recording Service, Replay Service etc. 
+Examples include:
 
-Or, these could be configuration files for user-defined services.
+- Configuration files for Connext DDS Routing Service, Persistence Service, 
+  Recording Service, Replay Service etc. 
+
+- Configuration files for user-defined service components.
 
 
 ## Organization
 
-A service *<service_name>* configuration is defined in a file as follows:
+A component *<name>* configuration is defined in a file as follows:
 
- - `<service_name>`-`<config_name>`.sh
-   - a named configuration for `<service_name>`
+ - `<name>`-`<config_name>`.sh
+   - a named configuration for component `<name>`

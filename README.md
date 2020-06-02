@@ -2,16 +2,16 @@
 
 ## Purpose
 
-This tree contains `<pick_one_of_the_following_and_remove_the_other_two>`:
+This tree contains:
 
 - [Bus](doc/Bus.md)
    - Dependencies: None
 
-- [Components](doc/Components.md)
-   - Dependencies: [bus](../bus/README.md)
+- [Components](doc/Component.md) 
+   - Dependencies: [bus](doc/Bus.md) and [modules](doc/Module.md) 
 
-- [Systems](doc/Systems.md)
-  - Dependencies: [components](../components/README.md)
+- [Systems](doc/System.md) 
+  - Dependencies: [components](doc/Component.md) and [deployments](doc/Deployment.md)
 
 
 ## Organization

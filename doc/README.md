@@ -1,28 +1,27 @@
 # doc/
 
-## Purpose
-
 Documentation.
 
-Vocabulary
+
+## Core Concepts
 
 - [Bus](Bus.md)
-- [Components](Components.md)
-- [Systems](Systems.md)
-
+  - [Data Model](DataModel.md)
+  - [Service](Service.md)
+    - [Interface](Interface.md)
+    - [Deployment](Deployment.md)
+- [Component](Component.md)
+  - [Module](Module.md)
+- [System](System.md)
 
 ## Organization
 
-A service *<service_name>* is documented in a file named:
+A item *<item>* is documented in a file named:
 
- - `<service_name>`.md 
+ - `<category>`/`<item>`.md 
 
+where `<category>` is an appropriate organizational category
+(e.g. `bus` | `component` | `system` | etc.)
 
-A component *<component_name>* is documented in a file named:
-
- - `<component_name>`.md 
-
-
-A system *<system_name>* is documented in a file named:
-
- - `<system_name>`.md 
+Each `<item>`.md shall be linked back to this [README.md](README.md) file, 
+which serves as the **documentation index**.
