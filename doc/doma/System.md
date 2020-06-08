@@ -20,10 +20,10 @@ A system (comprised of given set of components) can have many
 
 ## Organization
 
-- [if/](../if/README.md)
-- [res/cfg/](../res/cfg/README.md)
-- [res/env/](../res/env/README.md)
-- [bin/](../bin/README.md)
+- [if/](../../if/README.md)
+- [res/cfg/](../../res/cfg/README.md)
+- [res/env/](../../res/env/README.md)
+- [bin/](../../bin/README.md)
 
 
 ## Maintainer

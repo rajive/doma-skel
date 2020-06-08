@@ -15,9 +15,9 @@ Comprised of:
 
 ## Organization
 
-- [if/](../if/README.md)
-- [res/qos/](../res/qos/README.md)
-- [res/types/](../res/types/README.md)
+- [if/](../../if/README.md)
+- [res/qos/](../../res/qos/README.md)
+- [res/types/](../../res/types/README.md)
 
 
 ## Maintainer

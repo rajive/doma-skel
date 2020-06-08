@@ -2,8 +2,9 @@
 
 ## Purpose
 
-Describes the core concepts, design, conventions, and the organization of the
-directory tree structure.
+Describes the core concepts, design, conventions, and best practices. 
+
+Provides a template for the organization of the directory tree structure.
 
 
 ## Core Concepts
@@ -16,3 +17,13 @@ directory tree structure.
 - [Component](Component.md)
   - [Module](Module.md)
 - [System](System.md)
+
+
+## Organization
+
+- [if/](../../if/README.md)
+- [res/](../../res/README.md)
+- [src/](../../src/README.md) 
+- [bin/](../../bin/README.md)
+- [lib/](../../lib/README.md) 
+- [doc/](../../doc/README.md)

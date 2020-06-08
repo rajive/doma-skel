@@ -14,9 +14,9 @@ A Data Model is used to define [Data-Oriented Interfaces](Interface.md).
 
 ## Organization
 
-- [res/qos/](../res/qos/README.md)
-- [res/types/](../res/types/README.md)
-- [lib/](../lib/README.md)
+- [res/qos/](../../res/qos/README.md)
+- [res/types/](../../res/types/README.md)
+- [lib/](../../lib/README.md)
 
 
 ## Maintainer

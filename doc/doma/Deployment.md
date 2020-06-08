@@ -17,7 +17,7 @@ A component interface qos profile would typically customize qos policies for:
 
 ## Organization
 
-- [res/qos/services/](../res/qos/services/README.md)
+- [res/qos/services/](../../res/qos/services/README.md)
 
 
 ## Maintainer
