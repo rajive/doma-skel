@@ -16,8 +16,10 @@ specified via configurations defined in [res/cfg/](../res/cfg/README.md) directo
 
 Sub-directories with an approriate organization.
 
-Typically, there will be: 
+Typically, interfaces will be grouped into system architecture 
+*functional blocks*, with:
 
-- one sub-directory per *interface* implementation
-  - may have sub-directories for implementation variants
-- related implementations may be grouped under a common directory
+- one sub-directory per *functional block* grouping
+  - may have further *functional block* sub-directories
+    - may have one sub-directory per *interface*
+      - may contain implementation variants of an interface
