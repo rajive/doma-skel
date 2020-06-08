@@ -6,8 +6,7 @@ Configuration files specific to a component's operation.
 
 Examples include:
 
-- Configuration files for Connext DDS Routing Service, Persistence Service, 
-  Recording Service, Replay Service etc. 
+- Configuration files for DDS Persistence etc.
 
 - Configuration files for user-defined service components.
 

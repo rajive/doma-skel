@@ -4,9 +4,12 @@
 
 Shell script to setup the *runtime environment* for a component.
 
-Typically, the shell script will setup `NDDS_QOS_PROFILES` environment variable
-to satisfy the DDS-XML dependencies, and any additional environment variables
-needed by the runtime.
+Typically, the shell script will setup environment variables that specify
+the *QoS Profiles* to load, so that the DDS-XML dependencies are 
+satisfied. 
+
+Also, would setup and any additional environment variables needed for 
+running a component.
 
 
 ## Organization
