@@ -23,7 +23,7 @@ Many [components](Component.md) may implement a given [service interface](Interf
 ## Organization
 
 - [if/](../../if/README.md)
-
+- [res/qos/services/](../../res/qos/services/README.md)
 
 ## Maintainer
 

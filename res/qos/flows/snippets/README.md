@@ -1,4 +1,4 @@
-# res/qos/snippets/
+# res/qos/flows/snippets/
 
 ## Purpose
 

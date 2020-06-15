@@ -31,7 +31,6 @@ as required by the components in a system architecture.
 
 - [if/](../../if/README.md)
 - [res/cfg/](../../res/cfg/README.md)
-- [res/env/](../../res/env/README.md)
 - [src/](../../src/README.md)
 
 

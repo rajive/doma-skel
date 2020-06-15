@@ -8,7 +8,7 @@ A data-oriented interface is defined by:
 
 - an *abstract* participant whose name is the *interface name*:
   - can be be composed with other abstract participants (interfaces)
-  - does not specify a participant_qosp
+  - does not specify a `participant_qos`
 
 - inputs:
   - Subscriber(s) containing DataReaders

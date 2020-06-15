@@ -2,7 +2,10 @@
 
 ## Purpose
 
-Service Qos Profiles Library.
+[Service](../../../doc/doma/Service.md) Qos Profiles Library.
+
+A Service Qos Profile binds the [Flow Qos Profiles](../flows/README.md) 
+to topics, for each service endpoint interface.
 
 
 ## Organization

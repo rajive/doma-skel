@@ -1,4 +1,4 @@
-# res/qos/builtin/
+# res/qos/flows/builtin/
 
 ## Purpose
 
