@@ -11,6 +11,10 @@ Datatypes define the *structure* of a service interface input/output.
 
 Datatypes are defined in IDL files, organized as appropriate. 
 
-- `<datatype>`_t.idl
+- `<datatypes>`_t.idl
   - file containing a collection of datatypes
 
+- [`<name>`.idl]
+   - datatypes used by the service `<name>`
+   - may define the string constants for entity names used in the 
+     `if/<name>.xml` file
