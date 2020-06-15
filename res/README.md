@@ -10,4 +10,3 @@ Resource definitions.
  - [types/](types/README.md)
  - [qos/](qos/README.md)
  - [cfg/](cfg/README.md)
- - [env/](env/README.md)
