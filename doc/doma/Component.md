@@ -18,9 +18,7 @@ suitable for the role of a component in a system architecture.
 ## Organization
 
 - [if/](../../if/README.md)
-- [res/qos/services/](../../res/qos/services/README.md)
 - [res/cfg/](../../res/cfg/README.md)
-- [res/env/](../../res/env/README.md)
 - [src/](../../src/README.md)
 
 

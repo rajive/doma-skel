@@ -9,20 +9,23 @@ A system is a [composite service](Service.md), bound to a collection of
 resources, that accomplishes certain business goals by 
 providing certain capabilities. 
 
-[Components](Component.md) implement the composite (system) service endpoints.
-Thus, a system can be viewed as a collection of components.
-
-A [deployment](Deployment.md) binds the [component interfaces](Interface.md) 
+- A [system](System.md) is a composition of services
+  - A **[component interface](Component.md)** is a composite (system) 
+    [service endpoint interface](Interface.md)
+  - A [deployment](Deployment.md) is a composite (system) service qos profile 
+    library
+- [Components](Component.md) implement the composite (system) [service endpoint 
+interface](Interface.md) (i.e. the *component interface*). 
+   - Thus, a system can be viewed as a collection of [components](Components.md).
+- A [deployment](Deployment.md) binds the [component interfaces](Interface.md) 
 to the system resources.
 
-A system (comprised of given set of components) can have many
-[deployments](Deployment.md).
 
 ## Organization
 
 - [if/](../../if/README.md)
+- [res/qos/systems/](../../res/qos/systems/README.md)
 - [res/cfg/](../../res/cfg/README.md)
-- [res/env/](../../res/env/README.md)
 - [bin/](../../bin/README.md)
 
 

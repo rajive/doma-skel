@@ -9,15 +9,16 @@ A deployment binds service interfaces to resources.
 
 Specified as a composite (system) service qos profile library that 
 specifies the system resources used (transports, initial peers, 
-discovery etc.).
+discovery, monitoring, resources etc.) for each [component](Component.md) 
+interface.
 
-A component interface qos profile would typically customize qos policies for:
+Typically specified as per component interface qos policies for:
 - `participant_qos`
 - `participant_factory_qos`
 
 ## Organization
 
-- [res/qos/services/](../../res/qos/services/README.md)
+- [res/qos/systems/](../../res/qos/systems/README.md)
 
 
 ## Maintainer

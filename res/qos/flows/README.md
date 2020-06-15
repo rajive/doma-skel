@@ -7,8 +7,8 @@ Flow Qos Profiles Library.
 Top-level Qos Profiles that specify the primary patterns of data flow in a system
 architecture.
 
-Note that Flow Qos Profiles are not topic or endpoint specific. They are define
-patterns of dataflow behaviori, that can be used by many topic and endpoints.
+Note that Flow Qos Profiles are not topic or endpoint specific. They define
+patterns of dataflow behavior, that can be used by various topics and endpoints.
 
 
 ## Organization
