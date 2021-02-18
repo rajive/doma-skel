@@ -6,6 +6,11 @@
 --   rtiddsprototyper 
 --      <select the participant configuration>
 --*****************************************************************************
+--[[
+
+rtiddsprototyper -luaFile src/utils/Endpoints.lua -cfgName <name>
+
+--]]
 
 -- Globals (preserved across invocations)
 if not count then count = 0 else count = count + 1 end

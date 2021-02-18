@@ -9,8 +9,8 @@
 A [service](../doc/doma/Service.md) or a [system](../doc/doma/System.md) *<name>* is
 defined in a DDS-XML file as follows:
 
- - `<name>`.xml
-   - collection of endpoint interfaces defined in DDS-XML
+ - `<name>`_svc.xml
+   - collection of service endpoint interfaces defined in DDS-XML
 
 
 ## Dependencies
