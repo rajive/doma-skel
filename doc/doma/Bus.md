@@ -1,25 +1,28 @@
 # Bus
 
-Data models and Services for a particular industry vertical 
-or application domain.
+A *databus* is a data-centric information sharing technology that implements a virtual, global data space, where applications exchange data.
 
 ## Definition
 
-Collection of data models and services on a databus for a 
-set of related use cases. 
+A databus defines a collection of data-oriented service interfaces that use a common data model to exchange data. 
 
-Comprised of:
+Key characteristics of a databus are:
+
+- the [components](Component.md) directly interface with the operational data
+- the databus implementation interprets and selectively filters the data, and
+- the databus implementation imposes rules and manages quality of service (QoS) parameters, such as rate, reliability and security of data flow.
+
+
+A databus is comprised of:
  - [Data Models](DataModel.md)
- - [Services](Service.md)
+ - [Data-Oriented Services](Service.md)
 
 
 ## Organization
 
-- [if/](../../if/README.md)
-- [res/qos/](../../res/qos/README.md)
-- [res/types/](../../res/types/README.md)
+- [if/MyService.xml](../../if/README.md)
 
 
 ## Maintainer
 
-The Bus is maintained by team members responsible for architecture defintion.
+The Databus is maintained by architecture team members, with expertise in system software architecture definition.

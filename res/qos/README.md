@@ -15,4 +15,3 @@ Qos Profiles are organized as follows:
 
 - [data/](data/README.md)
 - [services/](services/README.md)
-- [systems/](systems/README.md)

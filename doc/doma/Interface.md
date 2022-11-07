@@ -4,10 +4,10 @@ Information exchange specification.
 
 ## Definition
 
-A data-oriented interface is defined by:
+A data-oriented interface *uses* a [Data Model](DataModel.md), and is defined by:
 
 - an *abstract* participant whose name is the *interface name*:
-  - can be be composed with other abstract participants (interfaces)
+  - can be composed with other abstract participants (interfaces)
   - does not specify a `participant_qos`
 
 - inputs:
@@ -23,14 +23,12 @@ A data-oriented interface is defined by:
     - PublisherQos spcified for the publisher
 
 
-A data-oriented interface *uses* a [Data Model](DataModel.md).
+A *composite* data-oriented interface is a composition of one or more data-oriented interfaces. 
 
 
 ## Organization
 
-- [if/](../../if/README.md)
-- [res/qos/](../../res/qos/README.md)
-- [res/types/](../../res/types/README.md)
+- [if/MyService_\<InterfaceX\>.xml](../../if/README.md)
 
 
 ## Maintainer

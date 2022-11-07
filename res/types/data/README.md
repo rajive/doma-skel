@@ -9,5 +9,5 @@ Datatypes that define the *structure* of a service interface input/output.
 
 Datatypes are defined in IDL files, organized as appropriate. 
 
-- `<datatypes>`_t.idl
+- `<datatypes>_t`.idl
   - file containing a collection of datatypes

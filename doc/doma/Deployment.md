@@ -1,27 +1,25 @@
 # Deployment
 
-Instantation of a service.
-
+A deployment is an instantiation of a [service](Service.md) bound to  resources. 
 
 ## Definition
 
-A deployment binds service interfaces to resources. 
+ A deployment is specified as a  *deployment qos profile*  that binds an abstract service [interface](Interface.md) to concrete system resources such as transports, initial peers, discovery, monitoring, memory, cpu, and so on.
 
-Specified as a composite (system) service qos profile library that 
-specifies the system resources used (transports, initial peers, 
-discovery, monitoring, resources etc.) for each [component](Component.md) 
-interface.
-
-Typically specified as per component interface qos policies for:
+A deployment qos profile is specified per service interface, by defining the folowing qos:
 - `participant_qos`
 - `participant_factory_qos`
 
+ A deployment qos profile appears similar a service interface qos profile--with the distinction that qos policies specify the actual resources. It may inherit from the logical service interface qos profile, and may *default* to it. It simply binds the abstract service interface implemented by a [service module](Module.md) to system resources. 
+
 ## Organization
 
-- [res/qos/systems/](../../res/qos/systems/README.md)
+- [res/qos/services/[<sys_name>-]MyService.xml](../../res/qos/services/README.md)
+- [res/env/[<sys_name>-]MyService](../../res/env/README.md)
+- [bin/[<sys_name>-]MyService](../../bin/README.md)
 
+The *default* deployment of a service is the one with an empty `<sys_name>`.
 
 ## Maintainer
 
-Deployments are maintained by the team members responsible for system 
-integration, test, and provisioning.
+Deployments are maintained by the team members responsible for system software integration, test, and provisioning.

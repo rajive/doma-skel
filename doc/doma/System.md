@@ -1,35 +1,27 @@
-# Systems
+# System
 
-A system implements one or more complete User Stories and has
-standalone business value.
+A system is a collection of components deployed in a specific manner.
 
 ## Definition
 
-A system is a [composite service](Service.md), bound to a collection of 
-resources, that accomplishes certain business goals by 
-providing certain capabilities. 
+A system is a:
 
-- A [system](System.md) is a composition of services
-  - A **[component interface](Component.md)** is a composite (system) 
-    [service endpoint interface](Interface.md)
-  - A [deployment](Deployment.md) is a composite (system) service qos profile 
-    library
-- [Components](Component.md) implement the composite (system) [service endpoint 
-interface](Interface.md) (i.e. the *component interface*). 
-   - Thus, a system can be viewed as a collection of [components](Components.md).
-- A [deployment](Deployment.md) binds the [component interfaces](Interface.md) 
-to the system resources.
+- collection of [components](Component.md) that use the service interfaces for  communication
+- where a service [interface](Interface.md) is bound to the system resources used for communication using a *deployment qos profile*. 
 
+A system deployment can be thought of as an instantiation of a [service](Service.md) bound to resources. A  *deployment qos profile*  binds abstract service interfaces to concrete system resources such as transports, initial peers, discovery, monitoring, memory, cpu, and so on.
+
+Typically, a deployment qos profile is specified per service interface, by defining the folowing qos:
+- `participant_qos`
+- `participant_factory_qos`
 
 ## Organization
 
-- [if/](../../if/README.md)
-- [res/qos/systems/](../../res/qos/systems/README.md)
-- [res/cfg/](../../res/cfg/README.md)
-- [bin/](../../bin/README.md)
+- [res/qos/services/[<sys_name>-]MyService.xml](../../res/qos/services/README.md)
+- [res/env/[<sys_name>-]MyService](../../res/env/README.md)
+- [bin/[<sys_name>-]MyService](../../bin/README.md)
 
 
 ## Maintainer
 
-Systems are maintained by the team members responsible for system 
-integration, test, and provisioning.
+Systems deployments are maintained by the team members responsible for system integration, test, and provisioning.

@@ -15,7 +15,7 @@ patterns of dataflow behavior, that can be used by various topics and endpoints.
 
 A Flow Qos Library is defined in a DDS-XML file as follows:
 
-- `<architecture_style>`_qos.xml
+- `<architecture_style>_qos`.xml
   - collection of qos profiles, where each describes a primary data flow behavior 
 
 

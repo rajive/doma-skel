@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Compiled Datatype and (MAG) AppGen libraries
+Compiled Datatype and AppGen libraries.
 
 ## Organization
 

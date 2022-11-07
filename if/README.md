@@ -2,15 +2,17 @@
 
 ## Purpose
 
-[Interface](../doc/doma/Interface.md) definitions.
+[Databus](../doc/doma/Bus.md) and [Interface](../doc/doma/Interface.md) definitions.
 
 ## Organization
 
-A [service](../doc/doma/Service.md) or a [system](../doc/doma/System.md) *<name>* is
-defined in a DDS-XML file as follows:
+A [service](../doc/doma/Service.md) named `MyService` is defined in a DDS-XML file as follows:
 
- - `<name>`_svc.xml
-   - collection of service endpoint interfaces defined in DDS-XML
+ - `MyService.xml`
+   - databus definitions in DDS-XML: define DDS domains containing registered types and topics using those registered types 
+
+ - `MyService_<InterfaceX>.xml`
+   - a service interface named `<InterfaceX>` in DDS-XML, using a DDS domain defined in `MyService.xml`
 
 
 ## Dependencies

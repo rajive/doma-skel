@@ -1,32 +1,20 @@
 # Service
 
-Collection of related interfaces that work together.
+Collection of related interfaces that work together by exchanging data on a common [databus](Bus.md).
 
 
 ## Definition
 
-A service is a collection of [endpoint interfaces](Interface.md) that 
-collaborate to accomplish certain objectives and provide certain 
-capabilities.
+A service is a collection of endpoint [interfaces](Interface.md) that collaborate to accomplish certain objectives and provide certain capabilities.
 
-- A service may be *composed* of other services. 
-- A **micro-service** comprises of the the *atomic* set of interfaces.
-  Such interfaces may not be further decomposed into smaller interfaces.
-- A **composite service** is a service whose 
-  [endpoint interfaces](Interface.md) are a **composition** of 
-  other [service endpoint interfaces](Interface.md).
-
-A [service endpoint interface](Interface.md), sometimes simply called 
-a **service interface** is implemented by a [component](Component.md).
-
-Many [components](Component.md) may implement a given 
-[service interface](Interface.md). 
-
+- A *micro-service* comprises of the the *atomic* set of interfaces. Such interfaces may not be further decomposed into smaller interfaces.
+- A service may be *composed* of other services. Such a service is called a *composite service*. The resulting endpoint interfaces are a composition of micro-service interfaces, and may be referred to as *composite* interfaces.
 
 ## Organization
 
-- [if/](../../if/README.md)
-- [res/qos/services/](../../res/qos/services/README.md)
+- [if/MyService*.xml](../../if/README.md)
+- [res/qos/services/MyService_qos.xml](../../res/qos/services/README.md)
+- [res/types/services/MyService_t.idl](../../res/types/services/README.md)
 
 ## Maintainer
 

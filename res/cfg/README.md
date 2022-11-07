@@ -2,26 +2,17 @@
 
 ## Purpose
 
-Configuration files specific to a component's operation. 
+Configuration files specific to a component's internal implementation and operation. These maybe:
 
-Examples include:
+- RTI Connext Databus Service components such as cloud discovery service (CDS), persistence service (PS), routing service (RS), recording service (REC), replay service (PLY), and so on.
 
-- Configuration files for DDS Persistence component etc.
-
-- Configuration files for user-defined service components.
-
-- Environment variable settings, for example, to specify
-the list of DDS-XML files and other environment variable dependencies
-
-
+- User-defined service components.
 
 ## Organization
 
-A component *<name>* configuration is defined in a file as follows:
+A component configuration is defined as follows:
 
- - `<name>`[-`<config_name>`].sh
-   - a named configuration for component `<name>`
-
-For example, to setup a runtime environment
-
-        source <name>[-<config_name>].sh
+ - [`<config_name>`-]`<name>`.* :  a configuration named `<config_name>` for a service component named `<name>`
+   - e,g. `cds.xml`, `wan-rs.xml`, `failover-ps.xml`, or `MyServiceInterfaceX.cfg`
+- maybe grouped into folders by component kind, e.g.:  
+  `cds/`, `rs/`, `ps/`, `MyServiceInterfaceX/`, ...

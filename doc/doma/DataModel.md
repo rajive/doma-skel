@@ -14,12 +14,9 @@ A Data Model is used to define [Data-Oriented Interfaces](Interface.md).
 
 ## Organization
 
-- [res/qos/](../../res/qos/README.md)
-- [res/types/](../../res/types/README.md)
-- [lib/](../../lib/README.md)
-
+- [res/types/data/](../../res/types/data/README.md)
+- [res/qos/data/](../../res/qos/data/README.md)
 
 ## Maintainer
 
-The Data Model is maintained by team members responsible for 
-architecture defintion.
+The Data Model is maintained by architecture team members, with expertise in system software architecture definition.

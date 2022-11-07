@@ -13,7 +13,7 @@ in a system.
 
 A System Qos Library is defined in a DDS-XML file as follows:
 
-- `<system_name>`_qos.xml
+- `<system_name>_qos`.xml
   - collection of qos profiles, one per component interface
   - specifies the *Domain Participant* qos policies
 
