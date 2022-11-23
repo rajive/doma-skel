@@ -1,15 +1,10 @@
-# Databus
+# doma-skel
 
-The [databus](doc/doma/Bus.md) project comprises of:
+Data-Oriented Micro-Services Architecture (DOMA) is an approach to data-oriented distributed system software architecture, that decouples the definition of a DDS dataspace and the component interfaces from the  application components. It allows software components to be developed independently of each other. 
 
-- A **common [Data Model](doc/doma/DataModel.md)** using the [DDS](https://www.dds-foundation.org/omg-dds-standard/) standard
--  Micro **[Services](doc/doma/Service.md)** and Component **[Interfaces](doc/doma/Interface.md)**
-  that use the common data model
+This repo describes an organization scheme for system software artifacts, so that the lifecycles for artifacts maintained by system software architects and applicaton developers can be managed independently by different teams.
+- Software architects can maintain and evolve data models and component interfaces independently of component implementations.
+- Application developers can independently develop and evolve components using the crisply defined interfaces and common artifacts shared by system architects.
 
-The databus project does not contain component implementations.
-Many components implementations are possible for the the defined
-component interfaces. Components implementations are provided by
-component implementation specific projects define elsewhere.
-
-- [Organization](doc/doma/README.md)
-- [Documentation](doc/README.md)
+For more details, please refer to:
+- [Data-Oriented Micro-Services Architecture (DOMA)](doc/doma/README.md)

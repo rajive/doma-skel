@@ -14,11 +14,11 @@ A deployment qos profile is specified per service interface, by defining the fol
 
 ## Organization
 
-- [res/qos/services/[<sys_name>-]MyService.xml](../../res/qos/services/README.md)
-- [res/env/[<sys_name>-]MyService](../../res/env/README.md)
-- [bin/[<sys_name>-]MyService](../../bin/README.md)
+- [res/qos/services/MyService[-<deployment_name>].xml](../../res/qos/services/README.md)
+- [res/env/MyService[-<env_name>]](../../res/env/README.md)
+- [bin/MyService[-<launcher_name>]](../../bin/README.md)
 
-The *default* deployment of a service is the one with an empty `<sys_name>`.
+The *default* deployment of a service is the one with an empty `<deployment_name>`, `<env_name>`, `<launcher_name>`.
 
 ## Maintainer
 

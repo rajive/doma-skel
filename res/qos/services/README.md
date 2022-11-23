@@ -18,11 +18,11 @@ A Service Qos Library is defined in a DDS-XML file as follows:
 
 A Deployment Qos Library is defined in a DDS-XML file as follows:
 
-- `[<sys_name>-]<service_name>_qos`.xml
+- `<service_name>[-<deployment_name>]_qos`.xml
   - collection of qos profiles, one per component interface
   - specifies the *Domain Participant* qos policies
 
-If a `<sys_name>` is empty (i.e. not specified), the Deployment Qos Library *defaults* to the Qos Profile defined by `<service_name>_qos`.xml.
+If a `[-<deployment_name>]` is empty (i.e. not specified), the Deployment Qos Library *defaults* to the Qos Profile defined by `<service_name>_qos`.xml.
 
 ## Dependencies
 

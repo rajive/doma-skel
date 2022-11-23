@@ -12,7 +12,7 @@ Configuration files specific to a component's internal implementation and operat
 
 A component configuration is defined as follows:
 
- - [`<config_name>`-]`<name>`.* :  a configuration named `<config_name>` for a service component named `<name>`
-   - e,g. `cds.xml`, `wan-rs.xml`, `failover-ps.xml`, or `MyServiceInterfaceX.cfg`
+ - `<name>`[-`<config_name>`].* :  a configuration named `<config_name>` for a service component named `<name>`
+   - e.g. `cds.xml`, `rs-wan.xml`, `ps-failover.xml`, or `MyServiceInterfaceX.cfg`
 - maybe grouped into folders by component kind, e.g.:  
   `cds/`, `rs/`, `ps/`, `MyServiceInterfaceX/`, ...

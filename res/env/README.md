@@ -17,15 +17,15 @@ All the environment variables needed to launch a component should have default v
 
 ## Organization
 
- - [`<env_name>-`]`<name>`[.*]
-   - an environment named `<env_name>` for a service or component named `<name>`, e,g. `MyService.sh` or `MyService_<InterfaceX>.sh`
+ - `<name>`[-`<env_name>`][.*]
+   - an environment named `<env_name>` for a service or component named `<name>`, e.g. `MyService.sh` or `MyService_<InterfaceX>.sh`
 
 
 ## Usage
 
 To setup the launch environment for a component, source the environment file; e.g. using a POSIX shell:
 
-    . [<env_name>-]<name>[.*]
+    . <name>[-<env_name>][.*]
 
 For example, to setup the environment for launching a component from the [top-level directory](../../) of this repository:
 
